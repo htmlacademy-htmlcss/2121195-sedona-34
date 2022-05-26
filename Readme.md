@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Данил Билалов](https://up.htmlacademy.ru/htmlcss/34/user/2121195).
-* Наставник: `Александр Григорьев`(https://vk.com/gr_alexander).
+* Наставник: `Александр Григорьев`(https://htmlacademy.ru/profile/fuckhtml).
 
 ---
 
