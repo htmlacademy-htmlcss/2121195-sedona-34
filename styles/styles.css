@@ -56,6 +56,7 @@ body{
     background:#fff;
     width: 1200px;
     height: 282px;
+    margin-top: 82px
 
     
 }
@@ -68,9 +69,9 @@ body{
     text-decoration:none;
     text-transform:uppercase;
     margin: 0 auto;
-    margin-top: 63px;
+    margin-bottom: 31px;
     width: 620px;
-    height: 72;
+    height: 72px;
 }
 .description{
     font-size: 22px;
@@ -80,7 +81,318 @@ body{
     color: inherit;
     text-decoration:none;
     margin: 0 auto;
-    margin-top: 31px;
-    width: 654px;
-    height: 26;
+    margin-bottom: 90px
 }
+.advantages{
+    color: #000;
+    background:#fff;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    width: 1200px;
+    height: 1535px;
+
+}
+.advantages-list{
+    width: 1200px;
+    height: 1535px;
+    list-style: none;
+    margin-left: -60px;
+}
+.advantages-item1{
+    color: inherit;
+    width: 1199px;
+    height: 384px;
+}
+.advantages-one{
+    background-color: #82B3D3;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 400px;
+    height: 384px;
+    text-align: center;
+}
+.advantages-title{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin: 0 auto;
+    margin-top: 92px;
+    width: 230px;
+    height: 30px;
+}
+.advantages-title1{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin: 0 auto;
+    margin-top: 92px;
+    width: 230px;
+    height: 30px;
+    
+}
+.advantages-description-number{
+    margin: 0 auto;
+    margin-top: 55px;
+    width: 230px;
+    height: 21px;   
+}
+.advantages-description1{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 230px;
+    height: 63px; 
+}
+.imgrealsity{
+    position: static;
+    float:right;
+    width: 799px;
+    height: 384px;
+    text-align: center;
+}
+.advanrages-list2{
+    color: inherit;
+    width: 1200px;
+    height: 384px;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    list-style: none;
+    margin-left:-40px
+}
+.advantages-item-home{
+    background-color: #83B3D31F;
+    color: inherit;
+    width: 400px;
+    height: 384px;
+    float: left;
+    text-align: center;
+}
+.logo-home{
+    display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+ 
+}
+.advantages-title-home{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.advantages-description-home{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 230px;
+    height: 63px; 
+}
+.advantages-item-food{
+    background-color: #fff;
+    color: inherit;
+    width: 400px;
+    height: 384px;
+    float: left;
+    text-align: center;
+}
+.logo-food{
+    display: block;
+  margin: 0 auto;
+  margin-top: 81px;
+ 
+}
+.advantages-title-food{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin: 0 auto;
+    margin-top: 31px;
+}
+.advantages-description-food{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 230px;
+    height: 63px; 
+}
+.advantages-item-souvenirs{
+    background-color: #83B3D31F;
+    color: inherit;
+    width: 400px;
+    height: 384px;
+    float: right;
+    text-align: center;
+}
+.logo-souvenirs{
+    display: block;
+  margin: 0 auto;
+  margin-top: 80px;
+ 
+}
+.advantages-title-souvenirs{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.advantages-description-souvenirs{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 230px;
+    height: 63px; 
+}
+.advantages-item2{
+    color: inherit;
+    width: 1199px;
+    height: 384px;
+}
+.advantages-two{
+    background-color: #82B3D3;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 400px;
+    height: 384px;
+    text-align: center;
+}
+.advantages-title2{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin: 0 auto;
+    margin-top: 92px;
+    width: 230px;
+    height: 30px;
+    
+}
+.advantages-description2{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 230px;
+    height: 63px; 
+}
+.devilbridge{
+    position: static;
+    float:right;
+    width: 799px;
+    height: 384px;
+    text-align: center;
+}
+.advantages-item{
+    background-color: #83B3D31F;
+    color: inherit;
+    width: 400px;
+    height: 384px;
+    float: left;
+    text-align: center;
+}
+.advantages-title-{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.advantages-description{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 230px;
+    height: 63px; 
+}
+
+.Search{
+    color: inherit;
+    width: 1200px;
+    height: 417px;
+}
+.Search-title{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: inherit;
+    text-decoration:none;
+    text-transform:uppercase;
+    margin: 0 auto;
+    margin-top: 91px;
+    width: 296px;
+    height: 36;
+}
+.Search-description{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: inherit;
+    text-decoration:none;
+    margin: 0 auto;
+    margin-bottom: 93px;
+    width: 592px;
+    height: 52;
+}
+.Search-link{
+    
+    background-color: #756157;
+    border: none;
+    color: white;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform:uppercase;
+    margin: 0 auto;
+    margin-top: 56px;
+    display: inline-block;
+    width: 574px;
+    height: 60;
+}
+.newsleter{
+    color: #000;
+    background:#fff;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% auto;
+    width: 1200px;
+    height: 441px;
+}
+.newsleter-title{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 51px;
+    left: 0;
+    right: 0;
+  }
+  .newsleter-description{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  }
