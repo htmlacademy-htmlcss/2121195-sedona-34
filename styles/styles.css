@@ -24,6 +24,53 @@ body{
     line-height: 21px;
     color: #000;
     background:#fff;
+    margin: 0 auto;
+}
+.page-header{
+    width: 1200px;
+    height: 65px;
+    
+}
+.navigation-logo{
+    margin: 0 auto;
+    margin-left: 70px;
+    position: absolute;
+}
+
+.navigation-list{
+    width: 390px;
+    height: 66px;
+    margin: 0 auto;
+    margin-left: 256px;
+}
+.navigation-item-home{
+    display: inline;
+    width: 68px;
+    height: 26px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+.navigation-item-histori{
+    display: inline;
+    width: 82px;
+    height: 26px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 34px;
+}
+.navigation-item-hotel{
+    display: inline;
+    width: 93px;
+    height: 26px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 34px;
+    
+}
+.navigation-user{
+    float: right;
 }
 .navigation-link{
     font-size: 20px;
@@ -473,3 +520,39 @@ body{
     width: 331px;
     height: 40px;
   }
+.inner-header{
+    color: #fff;
+    background-image: url("../images/background-catalog.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% auto;
+    font-size: 18px;
+    line-height: 21px;
+    width: 1200px;
+}
+.inner-header-title{
+    color: #fff;
+    font-size: 60px;
+    line-height: 78px;
+    font-weight: 700;
+    text-align: center;
+    margin: 70 35;
+    width: 495px;
+    height: 78px;  
+}
+
+.breadcrumbs{
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+    width: 111px;
+    height: 21px;  
+}
+.catalog-filter-group{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 150px;
+    height: 149px;  
+}
