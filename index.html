@@ -47,7 +47,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#popup">
-              <span class="Search-link-button">Хочу сюда</span>
+              <span class="button-grey">Хочу сюда</span>
             </a>
           </li>
         </ul>
@@ -59,12 +59,14 @@
       <h1 class="visually-hidden">
         Седона - онлайн-поиск и бронирование отелей
       </h1>
+      <div class="logo-bg">
       <img class="logo-bg-text" src="images/titular/welcome.svg" alt="Логотип Седоны" width="458" height="352">
       <img class="logo-bg-vector" src="images/titular/Vector.svg" alt="Логотип Седоны" width="1200" height="57">
+      </div>
     <div class="title-properties">
-      <h2 class="title">
+      <p class="title">
         Седона — небольшой городок в Аризоне, заслуживающий большего!
-      </h2>
+      </p>
       <p class="description">
         Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
       </p>
@@ -83,31 +85,31 @@
             </div>
             <img class="imgrealsity" src="images/Advantages/real-sity.jpg" alt="1 Преимущество" width="800" height="384">
           </li>
-            <ul class="advanrages-list2">
-              <li class="advantages-item-home">
-                <div class="logo-home">
-                  <img class="logo" src="images/Advantages/housing.svg" alt="Жильё" width="84" height="84">
-                </div>
-                <h3 class="advantages-title-home">Жильё</h3>
-                <p class="advantages-description-home">
-                  Рекомендуем пожить в настоящем мотеле, всё как в кино!
-                </p>
-              </li>
-              <li class="advantages-item-food">
-                <img class="logo-food" src="images/Advantages/food.svg" alt="Еда" width="84" height="84">
-                <h3 class="advantages-title-food">Еда</h3>
-                <p class="advantages-description-food">
-                  Всегда заказывай фирменный бургер, вы не разочаруетесь!
-                </p>
-              </li>
-              <li class="advantages-item-souvenirs">
-                <img class="logo-souvenirs" src="images/Advantages/souvenirs.svg" alt="Сувениры" width="84" height="84" >
-                <h3 class="advantages-title-souvenirs">Сувениры</h3>
-                <p class="advantages-description-souvenirs">
-                  Не только Китайского,но и настоящего местного производства
-                </p>
-              </li>
-            </ul>
+        <ul class="advanrages-list2">
+          <li class="advantages-item-home">
+            <div class="logo-home">
+              <img class="logo" src="images/Advantages/housing.svg" alt="Жильё" width="84" height="84">
+            </div>
+            <h3 class="advantages-title-home">Жильё</h3>
+            <p class="advantages-description-home">
+              Рекомендуем пожить в настоящем мотеле, всё как в кино!
+            </p>
+          </li>
+          <li class="advantages-item-food">
+            <img class="logo-food" src="images/Advantages/food.svg" alt="Еда" width="84" height="84">
+            <h3 class="advantages-title-food">Еда</h3>
+            <p class="advantages-description-food">
+              Всегда заказывай фирменный бургер, вы не разочаруетесь!
+            </p>
+          </li>
+          <li class="advantages-item-souvenirs">
+            <img class="logo-souvenirs" src="images/Advantages/souvenirs.svg" alt="Сувениры" width="84" height="84" >
+            <h3 class="advantages-title-souvenirs">Сувениры</h3>
+            <p class="advantages-description-souvenirs">
+              Не только Китайского,но и настоящего местного производства
+            </p>
+          </li>
+        </ul>
           <li class="advantages-item2">
             <div class="advantages-two">
               <h3 class="advantages-title2">Там есть мост дьявола</h3>
@@ -142,14 +144,14 @@
         </ol>
       </section>
 
-      <section class="Search">
-
-        <h2 class="Search-title">Заинтересовались?</h2>
-        <p class="Search-description">
-          Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие
+      <section class="search">
+        <h2 class="visually-hidden">Бронирование отеля</h2>
+        <h3 class="search-title">Заинтересовались?</h3>
+        <p class="search-description">
+          Укажите предполагаемые даты поездки,и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
-        <a class="Search-link" href="#">
+        <a class="search-link" href="#">
           <span class="button-grey">Поиск гостиницы в Седоне</span>
         </a>
       </section>
@@ -169,14 +171,7 @@
           method="post"
         >
           <label for="newsletter-email">Email</label>
-          <input
-            class="field"
-            placeholder="Ваш e-mail"
-            type="email"
-            name="newsletter-email"
-            id="newsletter-email"
-            required
-          />
+          <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required />
           <button class="button newsletter-button" type="submit">
             <span class="button-name">Подписаться</span>
           </button>
@@ -208,8 +203,7 @@
         </ul>
         <address class="contact-adress">
           <a class="contact-phone" href="tel:+78128121212"
-            >+7 (812) 812-12-12</a
-          >
+            >+7 (812) 812-12-12</a>
         </address>
         <a class="htmlACADEMY-logo" href="https://htmlacademy.ru">
           <img class="logo htmlacademy" alt="Логотип htmlacademy" src="images/footer/HTML-Academy.svg" width="115" height="33">
@@ -230,46 +224,20 @@
             method="post"
           >
             <p class="appointment-form-date">
-              <label class="form-label" for="appointment-date1"
-                >Дата Заезда:</label
-              >
-              <input
-                type="date"
-                id="appointment-date1"
-                name="appointment-date"
-              />
+              <label class="form-label" for="appointment-date1" >Дата Заезда:</label>
+              <input type="date" id="appointment-date1" name="appointment-date"/>
             </p>
             <p class="appointment-form-date">
-              <label class="form-label" for="appointment-date2"
-                >Дата выезда:</label
-              >
-              <input
-                type="date"
-                id="appointment-date2"
-                name="appointment-date"
-              />
+              <label class="form-label" for="appointment-date2">Дата выезда:</label>
+              <input type="date" id="appointment-date2" name="appointment-date"/>
             </p>
             <p class="appointment-form-date">
-              <label class="form-label" for="appointment-date3"
-                >Взрослые:</label
-              >
-              <input
-                type="number"
-                id="appointment-date3"
-                name="appointment-date"
-                step="1"
-                placeholder="2"
-              />
+              <label class="form-label" for="appointment-date3">Взрослые:</label>
+              <input type="number" id="appointment-date3" name="appointment-date" step="1" placeholder="2"/>
             </p>
             <p class="appointment-form-date">
               <label class="form-label" for="appointment-date4">Дети:</label>
-              <input
-                type="number"
-                id="appointment-date4"
-                name="appointment-date"
-                step="1"
-                placeholder="1"
-              />
+              <input type="number" id="appointment-date4" name="appointment-date" step="1" placeholder="1"/>
             </p>
             <button class="button" type="submit">Найти</button>
           </form>
