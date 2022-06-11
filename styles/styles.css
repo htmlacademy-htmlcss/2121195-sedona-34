@@ -29,27 +29,28 @@ body{
 .page-header{
     width: 1200px;
     height: 65px;
+    margin: 0 auto;
     
 }
 .navigation{
     width: 1200px;
     height: 65px;
+    display: flex;
     position: absolute;
     margin: 0 auto;
 }
 .navigation-logo{
     margin: 0 auto;
     margin-left: 70px;
-    position: absolute;
 }
 
 .navigation-list{
-    width: 390px;
+    width: 490px;
     height: 66px;
     margin: 0 auto;
-    margin-left: 256px;
+    padding: 0;
+    margin-left: 0;
     display: flex;
-    position: absolute;
 
 }
 .navigation-item-home{
@@ -58,7 +59,6 @@ body{
     height: 26px;
     margin: 0 auto;
     margin-top: 20px;
-    margin-left: 70px;
     
 }
 .navigation-item-histori{
@@ -67,7 +67,6 @@ body{
     height: 26px;
     margin: 0 auto;
     margin-top: 20px;
-    margin-left: 34px;
 }
 .navigation-item-hotel{
     display: inline;
@@ -79,10 +78,10 @@ body{
     
 }
 .navigation-user{
-    width: 264px;
+    max-width: 306px;
     height: 66px;
     margin: 0 auto;
-    margin-left: 866px;
+    margin-left: auto;
 }
 .navigation-link{
     font-size: 20px;
@@ -93,7 +92,7 @@ body{
     text-decoration: none;
 }
 .navigation-item-search{
-    background-image: url(../images/nav/search.svg);
+    background-image: url("../images/nav/search.svg");
     background-repeat: no-repeat;
     display: inline;
     width: 42px;
@@ -101,7 +100,7 @@ body{
     margin: 0 auto;
 }
 .navigation-item-favorite{
-    background-image: url(../images/nav/favorites.svg);
+    background-image: url("../images/nav/favorites.svg");
     background-repeat: no-repeat;
     display: inline;
     width: 42px;
@@ -119,19 +118,25 @@ body{
 .main-container {
     flex-grow: 1;
   }
+  .page-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
 .main-index{
     color: #000;
     background:#fff;
     background-image: url("../images/titular/index-background.jpg");
     background-repeat: no-repeat;
-    position: relative;
     background-size: 100% auto;
     width: 1200px;
+    margin: 0 auto;
 }
+
 .logo-bg{
     width: 1200px;
     height: 485px;
     margin: 0 auto;
+    position: relative;
     display: flex;
 }
 .logo-bg-text{
@@ -185,17 +190,13 @@ body{
     background:#fff;
     font-size: 18px;
     line-height: 21px;
-    font-weight: 400;
-    text-align: center;
     width: 1200px;
-    height: 1535px;
-
+    margin-left: -40px;
 }
 .advantages-list{
     width: 1200px;
     height: 1535px;
     list-style: none;
-    margin-left: -40px;
 }
 .advantages-item1{
     color: inherit;
@@ -265,7 +266,7 @@ body{
     float: left;
     text-align: center;
     list-style: none;
-    margin-left:-40px
+    padding: 0;
 }
 .advantages-item-home{
     background-color: #83B3D31F;
@@ -494,12 +495,19 @@ body{
 .page-footer{
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
-    position: relative;
-    background-size: 100% auto;
-    font-weight: 400;
-    text-align: center;
-    color: inherit;
-    margin: 0;
+    margin: 0 auto;
+    width: 1200px
+}
+.page-footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.newsletter{
+    width: 1200px;
+    height: 411px;
+    margin: 0 auto;
 }
 .newsletter-title{
     color: #fff;
@@ -538,23 +546,53 @@ body{
     text-decoration:none;
   }
   .footer-contact{
+    display: flex;
     color: inherit;
     text-decoration:none;
     width: 1200px;
     height: 120px;
+    margin: 0 auto;
 
   }
+  .footer-contact-list{
+    display: flex;
+    width: 116px;
+    height: 17px;
+    list-style: none;
+    margin: 0 auto;
+    margin-left: 72px;
+    margin-top:49px;
+    padding: 0;
+  }
+  .button{
+      text-decoration: none;
+  }
+  .footer-contact-item{
+    margin: 0 auto;
+  }
+  .contact-adress{
+    margin: 0 auto;
+    width: 720px;
+    height: 50px;
+    margin-top: 40px;
+  }
   .contact-phone{
-     color:inherit;
+    display: flex;
+    color:inherit;
     font-size: 40px;
     line-height: 40px;
     font-weight: 700;
     text-align: center;
     text-decoration:none;
     margin: 0 auto;
-    margin-top: 45px;
-    width: 331px;
-    height: 40px;
+    padding-left: 195px;
+  }
+  .html-acafemy-logo{
+    margin: 0 auto;
+    margin-top: 43px;
+    margin-right: 72px;
+    width: 115px;
+    height: 34px;
   }
 .main-inner{
     color: #fff;
@@ -562,6 +600,7 @@ body{
     background-repeat: no-repeat;
     position: relative;
     background-size: 100% auto;
+    margin: 0 auto;
     font-size: 18px;
     line-height: 21px;
     width: 1200px;
