@@ -605,6 +605,18 @@ body{
     line-height: 21px;
     width: 1200px;
 }
+.inner-header{
+    display: flex;
+    flex-direction: column;
+    width: 1060px;
+    height: 288px;
+    margin: 0 auto; 
+    margin-top: 35px;
+}
+.container-inner-header{
+    width: 495px;
+    height: 100px;
+}
 .inner-header-title{
     color: #fff;
     font-size: 60px;
@@ -612,32 +624,45 @@ body{
     font-weight: 700;
     text-align: center;
     margin: 0px auto;
-    margin-top: 35px;
-    margin-left: 70px;
     width: 495px;
     height: 78px;  
 }
 
 .breadcrumbs{
+    display: flex;
     color: #fff;
     font-size: 16px;
     line-height: 21px;
     font-weight: 400;
     text-align: center;
-    width: 111px;
+    width: 110px;
     height: 21px;
-    position: absolute;  
+    padding: 0; 
     margin: 0 auto;
-    margin-top: 10px;
-    margin-left: 70px;
+    margin-left: 2px;
+
+}
+.filtration-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    width: 1060px;
+    height: 149px; 
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.catalog-filter{
+    display: flex;
 }
 .catalog-filter-group{
+    display: flex;
     margin: 0 auto;
     margin-top: 40px;
     width: 150px;
     height: 149px;  
-    position: relative;
-    top: 40px; left: 40px;
+    float: left;
 }
 
 .sorting-container {

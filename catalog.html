@@ -53,20 +53,21 @@
           Седона - онлайн-поиск и бронирование отелей
         </h1>
         <header class="inner-header">
-
-          <h2 class="inner-header-title">Гостиницы Седоны</h2>
-          <ul class="breadcrumbs">
-            <li class="visually-hidden">
-              <a class="breadcrumbs-link" href="index.html">Главная</a>
-              <img src="images/icon/home.svg" alt="Home" width="12" height="12">
-            </li>
-            <li class="visually-hidden">
-              <img src="images/icon/vector.svg" alt="Home" width="5" height="8">
-            </li>
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link">Гостиницы</a>
-            </li>
-          </ul>
+          <div class="container-inner-header">
+            <h2 class="inner-header-title">Гостиницы Седоны</h2>
+            <ul class="breadcrumbs">
+              <li class="visually-hidden">
+                <a class="breadcrumbs-link" href="index.html">Главная</a>
+                <img src="images/icon/home.svg" alt="Home" width="12" height="12">
+              </li>
+              <li class="visually-hidden">
+                <img src="images/icon/vector.svg" alt="Home" width="5" height="8">
+              </li>
+              <li class="breadcrumbs-item">
+                <a class="breadcrumbs-link">Гостиницы</a>
+              </li>
+            </ul>
+          </div>
 
           <section class="filtration-products">
             <h2 class="visually-hidden">Список фильтров</h2>
@@ -134,8 +135,7 @@
                   <input type="text" id="appointment-price" name="appointment-price1" placeholder="9000"/>
                 </p>
                 <output class="price" id="volume">0</output>
-                <input class="price" type="range" id="fader" min="0" max="9000" value="100" step="500"
-  />
+                <input class="price" type="range" id="fader" min="0" max="9000" value="100" step="500"/>
               </fieldset>
               <button class="button" type="submit">Применить</button>
               <button class="button" type="reset">Сбросить</button>
