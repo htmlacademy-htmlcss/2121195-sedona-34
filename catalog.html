@@ -58,8 +58,9 @@
             <div class="breadcrumbs-container">
               <ul class="breadcrumbs">
                 <li class="visually-hidden">
-                  <a href="index.html">Главная</a>
-                  <img src="images/icon/home.svg" alt="Home" width="12" height="12">
+                  <a href="index.html">
+                    <img src="images/icon/home.svg" alt="Home" width="12" height="12">
+                  </a>
                 </li>
                 <li class="visually-hidden">
                   <img src="images/icon/vector.svg" alt="Home" width="5" height="8">
@@ -143,8 +144,8 @@
                   <input class="price-range" type="range" id="fader" min="0" max="9000" value="100" step="500"/>
                 </fieldset>
                 <div class="submit-form">
-                  <button class="button" type="submit">Применить</button>
-                  <button class="button" type="reset">Сбросить</button>
+                  <button class="button product-card-button" type="submit">Применить</button>
+                  <button class="button reset-button" type="reset">Сбросить</button>
                 </div>
               </div>
             </form>
@@ -155,25 +156,31 @@
           <div class="sorting-groop-page">
             <h2 class="select-title">Найдено: 38 гостиниц</h2>
             <div class="sorting-container">
-              <select class="select control" aria-label="Сортировка">
+              <select class="select-control" aria-label="Сортировка">
                 <option value="cheap">Сначала дешёвое</option>
                 <option value="expensive">Сначала дорогое</option>
                 <option value="popular">Сначала популярное</option>
               </select>
             </div>
             <div class="button-cards-container">
-              <a href="#" class="button button-cards">
-                <span class="visually-hidden">Показать карточки</span>
-                <img src="images/icon/icon-table.svg" alt="Показать карточки" width="16" height="14" >
-              </a>
-              <a href="#" class="button button-light">
-                <span class="visually-hidden">Показать слайдами</span>
-                <img src="images/icon/icon-slideshow.svg" alt="Показать слайдами" width="16" height="14" >
-              </a>
-              <a href="#" class="button button-light">
-                <span class="visually-hidden">Показать список</span>
-                <img src="images/icon/icon-list.svg" alt="Показать список" width="16" height="14" >
-              </a>
+              <div class="button border-cards">
+                <a href="#" class="button button-cards">
+                  <span class="visually-hidden">Показать карточки</span>
+                  <img src="images/icon/icon-table.svg" alt="Показать карточки" width="16" height="14" >
+                </a>
+              </div>
+              <div class="button border-cards border-light">
+                <a href="#" class="button button-light">
+                  <span class="visually-hidden">Показать слайдами</span>
+                  <img src="images/icon/icon-slideshow.svg" alt="Показать слайдами" width="16" height="14" >
+                </a>
+              </div>
+              <div class="button border-cards border-light">
+                <a href="#" class="button button-light">
+                  <span class="visually-hidden">Показать список</span>
+                  <img src="images/icon/icon-list.svg" alt="Показать список" width="16" height="14" >
+                </a>
+              </div>
             </div>
           </div>
           <ul class="product-card">
@@ -198,16 +205,16 @@
                     <div class="rating_block">
                       <input name="rating1" value="1" id="rating_1.1" type="radio" />
                       <label for="rating_1.1" class="label_rating"></label>
-                    
+
                       <input name="rating1" value="2" id="rating_1.2" type="radio" />
                       <label for="rating_1.2" class="label_rating"></label>
-                    
+
                       <input name="rating1" value="3" id="rating_1.3" type="radio" />
                       <label for="rating_1.3" class="label_rating"></label>
-                    
+
                       <input name="rating1" value="4" id="rating_1.4" type="radio" />
                       <label for="rating_1.4" class="label_rating"></label>
-                    
+
                       <input name="rating1" value="5" id="rating_1.5" type="radio" checked />
                       <label for="rating_1.5" class="label_rating"></label>
                   </div>
@@ -235,16 +242,16 @@
                     <div class="rating_block">
                       <input name="rating2" value="1" id="rating_2.1" type="radio" />
                       <label for="rating_2.2" class="label_rating"></label>
-                    
+
                       <input name="rating2" value="2" id="rating_2.2" type="radio" />
                       <label for="rating_2.2" class="label_rating"></label>
-                    
+
                       <input name="rating2" value="3" id="rating_2.3" type="radio" />
                       <label for="rating_2.3" class="label_rating"></label>
-                    
+
                       <input name="rating2" value="4" id="rating_2.4" type="radio" />
                       <label for="rating_2.4" class="label_rating"></label>
-                    
+
                       <input name="rating2" value="5" id="rating_2.5" type="radio" checked />
                       <label for="rating_2.5" class="label_rating"></label>
                     </div>
@@ -272,16 +279,16 @@
                     <div class="rating_block">
                       <input name="rating3" value="1" id="rating_3.1" type="radio" />
                       <label for="rating_3.1" class="label_rating"></label>
-                    
+
                       <input name="rating3" value="2" id="rating_3.2" type="radio" />
                       <label for="rating_3.2" class="label_rating"></label>
-                    
+
                       <input name="rating3" value="3" id="rating_3.3" type="radio"  />
                       <label for="rating_3.3" class="label_rating"></label>
-                    
+
                       <input name="rating3" value="4" id="rating_3.4" type="radio" checked/>
                       <label for="rating_3.4" class="label_rating"></label>
-                    
+
                       <input name="rating3" value="5" id="rating_3.5" type="radio" />
                       <label for="rating_3.5" class="label_rating"></label>
                     </div>
@@ -311,19 +318,19 @@
                     <div class="rating_block">
                       <input name="rating4" value="1" id="rating_4.1" type="radio" />
                       <label for="rating_4.1" class="label_rating"></label>
-                    
+
                       <input name="rating4" value="2" id="rating_4.2" type="radio"  />
                       <label for="rating_4.2" class="label_rating"></label>
-                    
+
                       <input name="rating4" value="3" id="rating_4.3" type="radio" checked />
                       <label for="rating_4.3" class="label_rating"></label>
-                    
+
                       <input name="rating4" value="4" id="rating_4.4" type="radio" />
                       <label for="rating_4.4" class="label_rating"></label>
-                    
+
                       <input name="rating4" value="5" id="rating_4.5" type="radio" />
                       <label for="rating_4.5" class="label_rating"></label>
-                      
+
                     </div>
                   <a class="button white-button" href="#">Рейтинг 5,0</a>
                  </div>
@@ -364,18 +371,18 @@
     <footer class="page-footer-catalog">
       <div class="page-footer-container">
         <section class="newsletter newsletter-catalog">
-
-          <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
-          <p class="newsletter-description">
-            Только полезная информация и никакого спама, честное бойскаутское!
-          </p>
-          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="newsletter-email">Email</label>
-            <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required />
-            <button class="button newsletter-button" type="submit">
-              <span class="button-name">Подписаться</span>
-            </button>
-          </form>
+          <div class="newsletter-container">
+            <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
+            <p class="newsletter-description">
+              Только полезная информация и никакого спама, честное бойскаутское!
+            </p>
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required />
+              <button class="button product-card-button newsletter-button" type="submit">
+                <span class="button-name">Подписаться</span>
+              </button>
+            </form>
+          </div>
         </section>
 
         <section class="footer-contact">
