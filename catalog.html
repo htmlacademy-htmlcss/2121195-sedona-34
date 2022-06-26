@@ -60,12 +60,12 @@
             <h2 class="inner-header-title">Гостиницы Седоны</h2>
             <div class="breadcrumbs-container">
               <ul class="breadcrumbs">
-                <li class="visually-hidden">
+                <li class="breadcrumbs-item">
                   <a href="index.html">
                     <img src="images/icon/home.svg" alt="Home" width="12" height="12">
                   </a>
                 </li>
-                <li class="visually-hidden">
+                <li class="breadcrumbs-item">
                   <img src="images/icon/vector.svg" alt="Home" width="5" height="8">
                 </li>
                 <li class="breadcrumbs-item">
@@ -84,23 +84,23 @@
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="checkbox" name="swimming pool" checked/>
-
-                        Бассейн
+                        <input class="visually-hidden control-input" type="checkbox" name="swimming pool" checked/>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Бассейн</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="checkbox" name="parking" checked/>
-
-                        Парковка
+                        <input class="visually-hidden control-input" type="checkbox" name="parking" checked/>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Парковка</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="checkbox" name="wi-fi" />
-
-                        Wi-Fi
+                        <input class="visually-hidden control-input" type="checkbox" name="wi-fi" checked/>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Wi-Fi</span>
                       </label>
                     </li>
                   </ul>
@@ -110,23 +110,23 @@
                   <ul class="catalog-filter-list">
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="product-group" value="Hotel" checked/>
-
-                        Гостиница
+                        <input class="visually-hidden control-input" type="radio" name="product-group" value="Hotel" checked/>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Гостиница</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="product-group" value="Motel"/>
-
-                        Мотель
+                        <input class="visually-hidden control-input" type="radio" name="product-group" value="Motel"/>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Мотель</span>
                       </label>
                     </li>
                     <li class="catalog-filter-item">
                       <label class="control">
-                        <input class="control-input" type="radio" name="product-group" value="Apartmens"/>
-
-                        Апортаменты
+                        <input class="visually-hidden control-input" type="radio" name="product-group" value="Apartmens"/>
+                        <span class="control-mark"></span>
+                        <span class="control-label">Апортаменты</span>
                       </label>
                     </li>
                   </ul>
@@ -135,19 +135,30 @@
               <div class="filter-choice-right">
                 <fieldset class="price">
                   <legend class="catalog-filter-title">Стоимость,Р:</legend>
-                  <p class="appointment-form-date">
-                    <label class="form-label" for="appointment-price1">От:</label>
-                    <input type="text" id="appointment-price1" name="appointment-price" placeholder="0"/>
-                  </p>
-                  <p class="appointment-form-date">
-                    <label class="form-label" for="appointment-price">До:</label>
-                    <input type="text" id="appointment-price" name="appointment-price1" placeholder="9000"/>
-                  </p>
-                  <output class="price-range" id="volume">0</output>
-                  <input class="price-range" type="range" id="fader" min="0" max="9000" value="100" step="500"/>
+                  <div class="form-price">
+                    <p class="appointment-form-price">
+                      <label class="form-label-price" for="appointment-price1">От</label>
+                      <input class="price-input" type="text" id="appointment-price1" name="appointment-price" value="0"/>
+                    </p>
+                    <p class="appointment-form-price">
+                      <label class="form-label-price" for="appointment-price">До</label>
+                      <input class="price-input price-input-radius" type="text" id="appointment-price" name="appointment-price1" value="9000"/>
+                    </p>
+                  </div>
+                  <div class="range">
+                    <div class="range-scale">
+                      <div class="range-bar" style="left: 0px; width: 228px">
+                        <button class="range-toggle toggle-min">
+                          <span class="visually-hidden">Изменить минимальную цену.</span>
+                        </button>
+                        <button class="range-toggle toggle-max">
+                          <span class="visually-hidden">Изменить максимальную цену.</span>
+                        </button>
+                      </div>
+                    </div>
                 </fieldset>
                 <div class="submit-form">
-                  <button class="button product-card-button" type="submit">Применить</button>
+                  <button class="button product-card-button button-price" type="submit">Применить</button>
                   <button class="button reset-button" type="reset">Сбросить</button>
                 </div>
               </div>
@@ -341,6 +352,9 @@
               </li>
             </div>
           </ul>
+          <div class="line">
+            <img src="/images/line.svg" alt="line">
+          </div>
           <div class="pagination-container">
             <ul class="pagination">
               <li class="pagination-item">
