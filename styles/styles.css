@@ -1270,12 +1270,14 @@ width: 230px;
   border-radius: 4px;
 }
 
-.control:hover .control-mark {
-  border-color: #814b18;
+
+.control-input[type="checkbox"] + .control-mark:hover {
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .control-input:disabled + .control-mark {
-  border-color: #242424;
+  border:3px ;
+  border-color: rgba(255, 255, 255, 0.6);
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before{
