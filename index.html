@@ -238,7 +238,7 @@
                   <path d="M11.5 10C11.8 10 12 9.8 12 9.5C12 9.2 11.8 9 11.5 9C11.2 9 11 9.2 11 9.5C11 9.8 11.2 10 11.5 10Z" fill="#666666"/>
                   <path d="M11.5 11C11.2 11 11 11.2 11 11.5C11 11.8 11.2 12 11.5 12C11.8 12 12 11.8 12 11.5C12 11.2 11.8 11 11.5 11Z" fill="#666666"/>
                 </svg>
-
+                <span class="error">Мы не можем отправить вас в прошлое.</span>
               </p>
               <p class="appointment-form-date">
                 <label class="form-label form-label-exit" for="appointment-date2">Дата выезда:</label>
@@ -256,7 +256,7 @@
                   <path d="M11.5 10C11.8 10 12 9.8 12 9.5C12 9.2 11.8 9 11.5 9C11.2 9 11 9.2 11 9.5C11 9.8 11.2 10 11.5 10Z" fill="#666666"/>
                   <path d="M11.5 11C11.2 11 11 11.2 11 11.5C11 11.8 11.2 12 11.5 12C11.8 12 12 11.8 12 11.5C12 11.2 11.8 11 11.5 11Z" fill="#666666"/>
                 </svg>
-
+                <span class="perfection">На эти даты есть свободные номера. Пока есть.</span>
               </p>
               <div class="form-container">
               <p class="appointment-form-date appointment-form-visitors">
@@ -274,7 +274,26 @@
                 </button>
               </p>
               <p class="appointment-form-date appointment-form-visitors-child">
-                <label class="form-label form-label-number-child" for="appointment-date4">Дети:</label>
+                <span class="form-label">
+                  <label class="form-label form-label-number-child" for="appointment-date4">Дети:</label>
+                  <span class="tooltip">
+                    <button class="tooltip-toggle" type="button" aria-labelledby="tooltip-label">
+                      <svg width="1" height="9" viewBox="0 0 1 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_33716_651)">
+                        <path d="M0 9H1L1 3H0L0 9Z" fill="white"/>
+                        <path d="M1 0H0V1H1V0Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_33716_651">
+                        <rect width="1" height="9" fill="white"/>
+                        </clipPath>
+                        </defs>
+                      </svg>
+                    </button>
+                    <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                  </span>
+                </span>
+
                 <input class="date-reserve number-visitors" type="text" id="appointment-date4" name="appointment-date" step="1"  placeholder="1">
                 <button class="minus minus-two" type="button">
                   <svg class="minus-svg" width="13" height="13" viewBox="0 0 13 1" aria-hidden="true" focusable="false" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
