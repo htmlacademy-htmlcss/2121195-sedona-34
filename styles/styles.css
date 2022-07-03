@@ -1360,7 +1360,7 @@ body {
 }
 
 .modal-container-close {
-display: none ;
+display: none;
 }
 
 .modal-close-button {
@@ -1435,7 +1435,7 @@ display: none ;
   padding: 0;
   font-weight: 700;
   border: 3px solid #ffff;
-  border-radius: 4px;
+  border-radius: 6px;
   background-color:#F2F2F2 ;
   text-indent: 19px;
 }
@@ -1651,4 +1651,14 @@ width: 230px;
   right:0;
   margin-left: auto;
   margin-right: auto;
+}
+
+.error {
+  margin-left: 150px;
+  color: #FF5757;
+}
+
+.perfection {
+  margin-left: 150px;
+  color: #000000;
 }
